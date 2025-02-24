@@ -1,0 +1,36 @@
+12:54:43.7910 [main] INFO  c.s.helloWorld.HelloWorldApplication - Starting HelloWorldApplication using Java 23.0.2 with PID 32011 (/Users/princeraj/Desktop/Capgemini-Training/SpringIntroduction/helloWorld/target/classes started by princeraj in /Users/princeraj/Desktop/Capgemini-Training/SpringIntroduction/helloWorld)
+12:54:43.7930 [main] INFO  c.s.helloWorld.HelloWorldApplication - No active profile set, falling back to 1 default profile: "default"
+12:54:44.2160 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+12:54:44.2230 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+12:54:44.2240 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:54:44.2240 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+12:54:44.2460 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:54:44.2460 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 419 ms
+12:54:44.4010 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+12:54:44.4090 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/'
+12:54:44.4140 [main] INFO  c.s.helloWorld.HelloWorldApplication - Started HelloWorldApplication in 0.837 seconds (process running for 1.123)
+12:55:18.1330 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:55:18.1340 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:55:18.1370 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+12:56:11.9980 [http-nio-8000-exec-3] INFO  c.s.h.controller.HelloController - hhhhh
+12:56:11.9990 [http-nio-8000-exec-3] INFO  c.s.h.controller.HelloController - --------------- I am logger printing custom log message ---------------
+12:56:42.7660 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+12:56:42.7740 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+12:58:26.7130 [main] INFO  c.s.helloWorld.HelloWorldApplication - Starting HelloWorldApplication using Java 23.0.2 with PID 32094 (/Users/princeraj/Desktop/Capgemini-Training/SpringIntroduction/helloWorld/target/classes started by princeraj in /Users/princeraj/Desktop/Capgemini-Training/SpringIntroduction/helloWorld)
+12:58:26.7140 [main] INFO  c.s.helloWorld.HelloWorldApplication - No active profile set, falling back to 1 default profile: "default"
+12:58:27.1630 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+12:58:27.1700 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+12:58:27.1710 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:58:27.1720 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+12:58:27.1960 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:58:27.1960 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 442 ms
+12:58:27.3690 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+12:58:27.3790 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/'
+12:58:27.3850 [main] INFO  c.s.helloWorld.HelloWorldApplication - Started HelloWorldApplication in 0.867 seconds (process running for 1.14)
+12:58:31.2190 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:58:31.2190 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:58:31.2200 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:58:31.2370 [http-nio-8000-exec-1] INFO  c.s.h.controller.HelloController - this is hello page
+12:58:36.3770 [http-nio-8000-exec-4] INFO  c.s.h.controller.HelloWebController - I am web Page
+12:58:45.5260 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+12:58:45.5320 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
